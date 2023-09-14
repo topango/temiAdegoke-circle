@@ -1,0 +1,53 @@
+[
+  {
+    "description": "        As a user\n        i want to be able to Test patient journey in booking an appointment",
+    "keyword": "Feature",
+    "name": "Test patient journey in booking knee replacement appointment",
+    "line": 1,
+    "id": "test-patient-journey-in-booking-knee-replacement-appointment",
+    "tags": [],
+    "uri": "homePage.feature",
+    "elements": [
+      {
+        "id": "test-patient-journey-in-booking-knee-replacement-appointment;verify-patient-is-able-to-get-consultant-availability-and-location-for-knee-replacement-appointment",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify patient is able to get consultant availability and location for knee replacement appointment",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Patient navigate to the circle website wanting a knee replacement",
+            "result": {
+              "status": "passed",
+              "duration": 4957000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Patient enters their location and date of leave",
+            "result": {
+              "status": "passed",
+              "duration": 19865000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Patient is able to get a consultant availability and location provided to make decision",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
